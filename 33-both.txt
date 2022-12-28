@@ -1,0 +1,33 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+b:
+    COPYFROM 5
+    COPYTO   7
+    INBOX   
+    COPYTO   6
+c:
+    COPYFROM [7]
+    JUMPZ    d
+    SUB      6
+    JUMPZ    b
+    BUMPUP   7
+    JUMP     c
+d:
+    COPYFROM 6
+    OUTBOX  
+    JUMP     a
+
+
+DEFINE LABEL 5
+eJyTZ2BgsGk86nyqus1lWjmPZ0qRZJBVVmmaU3pXaUva4zan9NIp9Rn2s79mn1uaWDx/063Sx1tO1Dzf
+vrX5+fbYnvmbAiZOXnl8yt6ZrlO3TD4+5XGb76T+ioTuNfHFLbKhO5qmBwCNZ5Dsu6f+vKPJ8VDd7EaZ
+UqUtTwtPXlAv5L3MMApGwSgYcAAA17g8dQ;
+
+DEFINE LABEL 6
+eJzjY2BgMM+utI4rMUr53nR0fnb7rXXzu59vj+jL3AmUYpjel2t0p+ezmUnL82jx8oNz1uVp7arM2nKQ
+YRSMglEwLAAAhykZhg;
+
+DEFINE LABEL 7
+eJzjYmBgmFyRED67dH7L3RLepTKlz7dHln0+cLW86uj/+r3HgdIMbrX31BlGwSgYBcMSAAD9TxIJ;
+
