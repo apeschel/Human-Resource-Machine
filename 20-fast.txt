@@ -1,0 +1,91 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    COPYFROM 9
+    COPYTO   1
+    INBOX   
+    COPYTO   2
+    INBOX   
+    COPYTO   0
+    JUMPZ    k
+b:
+    BUMPDN   0
+    JUMPZ    j
+    BUMPDN   0
+    JUMPZ    i
+    BUMPDN   0
+    JUMPZ    h
+    BUMPDN   0
+    JUMPZ    g
+    BUMPDN   0
+    JUMPZ    f
+    BUMPDN   0
+    JUMPZ    e
+    BUMPDN   0
+    JUMPZ    d
+    BUMPDN   0
+    JUMPZ    c
+    COPYFROM 1
+    ADD      2
+    ADD      2
+    ADD      2
+    ADD      2
+    ADD      2
+    ADD      2
+    ADD      2
+    ADD      2
+    COPYTO   1
+    JUMP     b
+c:
+    ADD      2
+d:
+    ADD      2
+e:
+    ADD      2
+f:
+    ADD      2
+g:
+    ADD      2
+h:
+    ADD      2
+i:
+    ADD      2
+j:
+    ADD      2
+k:
+    ADD      1
+    OUTBOX  
+    JUMP     a
+
+
+DEFINE LABEL 0
+eJyTZ2BguBdTmpYaNbn6ZYReP5DLcDv2jw2InlyRmyBVppf4tPB7+rq8gMr8vPktb/OWtL8oeN75tFCt
+U6ZUsoGrhqPkRA1LYVvt93SXulwjlzrR2oZ60VqQfoO5uQkWs4xSuiYfLZzVO78FJCbZlxBuMPdcedb8
+6XUMo2AUjIIBBwAMNTEM;
+
+DEFINE LABEL 1
+eJxTZmBgOJmyImZOrH3uwmjvsqToWw1zYh+3TY9X6zydvKLLPfV5Z0va4zaGjD9Zjem5Cb8z+yt+ZF2r
+1c1/3gnUyvCpZUWMXcPrOJ/qzykTKqsyp5UfLbxaHlEvVJnQylXzvDO18/MkkLqs+alR9dOXRLJNzYzl
+nLIm/uIElkLhCSE1ZyaldjRNW9M7Z4kRWN0oGAWjgL4AAA2BQOo;
+
+DEFINE LABEL 2
+eJzjZGBgmNvzOs6tlqf8dybvUiCX4Wv2vVCl4tK0s1WTq5umTV/DMApGwSgYtgAARWUOiw;
+
+DEFINE LABEL 5
+eJwTZWBg2Jm1JHJ3Zl1OTab97J1Z3mVfs41SNuYuiVxZcCtocVFE4LRyoxShSvtcv6qQmsDKz5O4akJq
+DtXFhPyvD/GzaZzsm90+OzihuzTtTk9X6Z0elvkMo2AUjIIhAwCYuyXX;
+
+DEFINE LABEL 6
+eJzjY2BgmFFWlXm3ZMnWq+VtRZcq/mSdqv6cwlK3IcmkZU18Qate4pu20jTF7oDK6N4fUyX7QlZJ9u08
+wjAKRsEoGBYAAMZSGxU;
+
+DEFINE LABEL 9
+eJxLZWBgWGpzz+5BaK7R18hco81RG0ykIhQd2UIm+5530SoNM3s897+R0coFRtPX3DK5te6Od9OWIyFN
+Wx6E2m+qjJDdCNTO0J3ZX/EoZ/7sV5knu03SjhaWpU5Pv5rqHpOXMT+MpzTAe2rtPTuQugW5Gyr9SnLL
+r9csKQDxRYqsZyRX1M1ybomZCeIf6a8LrZp8tHDL1BVdoVN5+5b39VcEdK+JN+6SDLrSudd2UpeZ5ZF+
+b8N30/uMn836bPZrnqKj+IKTbuILJvvazOuK05i1M8Ng+p8spjnPix4tr2oAmVmx/XvAn60sUXZbS9Pu
+bzlaaLd1RVfFdusZb3aHrHqyT3bjx6M+u5tOP98ufa5pS+iFW+suXhRc4Xv54BzuKye711ze21R08Whh
+1TnB5JcnrIPXH7vmz3ig0GfVnmv+FdsfRYD98GLnWhD9/I19rt0HM0u7D891G95rGTx/c9LN75V9bthz
+s7rvzxhaQWr2Ptm5dsaz6WsmvPyz/tILn90iL/r3fn+Wu8fyGcdOy2dNW8Ke228Ke86xk2EUjAI6AgDO
+V8Uh;
+
