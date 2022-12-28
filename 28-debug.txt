@@ -1,0 +1,105 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+b:
+c:
+d:
+e:
+f:
+    INBOX   
+    COPYTO   2
+    INBOX   
+    COPYTO   1
+    INBOX   
+    COPYTO   0
+    SUB      1
+    COPYTO   5
+    COPYFROM 0
+    SUB      2
+    COPYTO   6
+    COPYFROM 1
+    SUB      2
+    COPYTO   7
+    COPYFROM 5
+    JUMPN    i
+    COPYFROM 7
+    JUMPN    g
+    COPYFROM 2
+    OUTBOX  
+    COPYFROM 1
+    OUTBOX  
+    COPYFROM 0
+    OUTBOX  
+    JUMP     a
+g:
+    COPYFROM 1
+    OUTBOX  
+    COPYFROM 6
+    JUMPN    h
+    COPYFROM 2
+    OUTBOX  
+    COPYFROM 0
+    OUTBOX  
+    JUMP     b
+h:
+    COPYFROM 0
+    OUTBOX  
+    COPYFROM 2
+    OUTBOX  
+    JUMP     c
+i:
+    COPYFROM 6
+    JUMPN    j
+    COPYFROM 2
+    OUTBOX  
+    COPYFROM 0
+    OUTBOX  
+    COPYFROM 1
+    OUTBOX  
+    JUMP     d
+j:
+    COPYFROM 0
+    OUTBOX  
+    COPYFROM 7
+    JUMPN    k
+    COPYFROM 2
+    OUTBOX  
+    COPYFROM 1
+    OUTBOX  
+    JUMP     e
+k:
+    COPYFROM 1
+    OUTBOX  
+    COPYFROM 2
+    OUTBOX  
+    JUMP     f
+
+
+DEFINE LABEL 0
+eJzjZmBgYE4/67kt+3n0hMrZjQ311jOAQgwVTZd8/tfHhOTnnSs/mL6iqyd570wGIkBBa8TaFR39y1I7
+Ty560qnVs6r9cVtF071mkByQH6fWyVL4pdl5nkud+WGQ2P7puQmv5+UmSC3NjL2xtGvxlOWfD2jPLzu0
+fu7OI6azWc4SY+coGAWjgHwAAIpbOew;
+
+DEFINE LABEL 1
+eJzjYWBgOFUt6ONWey/0T8OGpK3N1llPOrtKgcIMBnMPOjRNkw191f66h6VOdDVXzZKtDKNgFIyCYQUA
+154T3Q;
+
+DEFINE LABEL 2
+eJzjZ2BgmF0aEeg6dXpA+5R7oZodorUdNbfWTSv/fECmtO2cVNnBUxcq7U9az9x7HKiU4UJlakdCt1ZP
+1+TMboZRMApGwZAHABC+Gvg;
+
+DEFINE LABEL 5
+eJyTZmBgWBIVE3LIn6UwwWXvTCCXQdMxxG9PoGCVb/LR+SC+w3RrG+UutWifau+yX40R9Xd6zKaen8gw
+x3S27EaQfN16teiaDUYpmze7F8/dbTQJJFZxUjb07EGe8hXbp6/5sGXDvk+bGU4xjIJRMAoGHQAAqEwp
+uA;
+
+DEFINE LABEL 6
+eJxTZGBgkI1tcmz1m14n4lk4Mdl58kqgEEOxLYfbE6f5YbWBev0KMRCx/ol/bDa0qkWfrbpU9aTTbKrr
+1NnrQeI+q5ydBA+wOH8/edBh/RlnJ72z7q4/TzyK6D5Ul2Oyefoap3Ub9m3blLkzbveSrfuPLdn68tyK
+HSB9lRsnV/8/dq2WYRSMglEwYAAAs5c6tw;
+
+DEFINE LABEL 7
+eJxTZmBg2GDX5nLc12gSi//OaQ4B1jOAQgwnUzjc7sVsSFoTLlpbFXRwzimf1G3Bnixn77hK3gHJC040
+MvvSnBkbUjG5OqKvcCLfJOsZ/6YLrtg+a/oakDzDemub1AvWNltP3Qu9vjekJnnn50k1Gx5vkdw7e33F
+Scl1CZdCVs26IroapNRoC0vhx9NtRQyjYBSMAroDAG0xOzE;
+
