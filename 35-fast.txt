@@ -1,0 +1,57 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+    INBOX   
+    JUMP     e
+a:
+b:
+c:
+d:
+    COPYFROM 11
+e:
+    COPYTO   [14]
+    OUTBOX  
+    BUMPUP   14
+f:
+g:
+h:
+i:
+    COPYFROM 14
+    COPYTO   12
+    INBOX   
+    COPYTO   11
+j:
+    BUMPDN   12
+    JUMPN    a
+    COPYFROM 11
+    SUB      [12]
+    JUMPZ    f
+    BUMPDN   12
+    JUMPN    b
+    COPYFROM 11
+    SUB      [12]
+    JUMPZ    g
+    BUMPDN   12
+    JUMPN    c
+    COPYFROM 11
+    SUB      [12]
+    JUMPZ    h
+    BUMPDN   12
+    JUMPN    d
+    COPYFROM 11
+    SUB      [12]
+    JUMPZ    i
+    JUMP     j
+
+
+DEFINE LABEL 11
+eJzjZGBg0GsrTOavWtNbmWV/EshlsMp6FJFSdKmqo8Z+dnLX+70Mo2AUjIJhCwDvXg22;
+
+DEFINE LABEL 12
+eJzjYmBgCKzsrxCpkGy4VcowZ3bpkq1SZYX7r5bXnThV7XwGKM3AXtvkyDAKRsEoGJYAABJZD0I;
+
+DEFINE LABEL 14
+eJzTZ2BgUI2KUdOO+G65PiwhfFfQ47Y/gc7zrIOWbP0WzHCqKJTjwppwn0tAZQzr8vbODKlomstV82eG
+XUPhxD8Na3p3NSa07mqc3finYXpdQ71orXj5tdrX+bLNJTlL2v9mbJjQmG4943Ba12Kn9Gur7TNkN27M
+zd0zrfzPMbdahlN5bQynVnTsPQ4yu3R2V6nxnMkrf85sOr1l9vPtRXNOLtKdl9mdvuBWg9RS77KgFefK
++1YKVh1bk9l9eC3DnJa1Pw4zjIJRMAooBgBJTl0v;
+
