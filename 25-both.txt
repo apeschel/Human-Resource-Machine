@@ -1,0 +1,27 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    INBOX   
+    JUMPZ    d
+    COPYTO   1
+    COPYTO   0
+b:
+    BUMPDN   1
+    JUMPZ    c
+    ADD      0
+    COPYTO   0
+    JUMP     b
+c:
+    COPYFROM 0
+d:
+    OUTBOX  
+    JUMP     a
+
+
+DEFINE LABEL 0
+eJwTZmBgcKzPTZhXUpqmm9+Ur593smRjrmjth9zHba/z3/cvLvozI7KMZX5g5dH5p6o3TPhf/z5xb0Np
+mk2jYNWOpvkthq1reu/0sMzvmhywnGEUjIJRMOQAAGFTJao;
+
+DEFINE LABEL 1
+eJxjY2Bg8KnemRFYuXPatPLJK4Fchr0NesYMo2AUjIIRAQB9ggfv;
+
