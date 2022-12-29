@@ -1,0 +1,76 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+    COPYFROM 23
+    COPYTO   22
+    COMMENT  0
+a:
+    INBOX   
+    COPYTO   [22]
+    JUMPZ    b
+    BUMPUP   22
+    JUMP     a
+b:
+    COMMENT  1
+    COPYFROM 23
+    COPYTO   22
+c:
+    COPYFROM [22]
+    JUMPZ    h
+    INBOX   
+    JUMPZ    i
+    COPYTO   21
+    SUB      [22]
+    JUMPZ    e
+    JUMPN    f
+d:
+    COPYFROM [22]
+    JUMPZ    k
+    OUTBOX  
+    BUMPUP   22
+    JUMP     d
+e:
+    COPYFROM [22]
+    JUMPZ    j
+    OUTBOX  
+    BUMPUP   22
+    JUMP     c
+f:
+    COPYFROM 21
+    OUTBOX  
+g:
+    INBOX   
+    JUMPZ    l
+    OUTBOX  
+    JUMP     g
+h:
+i:
+j:
+k:
+l:
+
+
+DEFINE COMMENT 0
+eJyTY2BgqMya7OueGhH4LHJDUkFYXc6mUPfij6GCVcsjZzdKxC9pb0lb0fU6/3mnfMmPqXdLGObMKzm3
+9Gmh7EbdfLXthbkrdvgma+16GP14C9AohtB+94Wh/dbHQOyIPoY50r1Nc9e2zV4P4r9vdT/vO+nkBeM5
+B08xjIJRMAoGBQAAtxA1FQ;
+
+DEFINE COMMENT 1
+eJxzYmBgqAh2dz3kb29/xvuPjZiHvX2xrah/naVe4mHzg3mHzV/3/LX0XlJsm7g5zz512yw3rV1ZEVq7
+bsY93hKaILsxKFF0NdAIhrgSyYb8vMzuwly9fqPcLZP185rmPi2cvkamdP6ms1URaz1rRFe71fYva66z
+n91c92Mqe+2a3mnlsxvjSqbXgfQ/7/AuU+5S61Tucl+o1qm0ZWnntVrlrv6KuT1HC4Un2Of6TrLPPTK1
+v+LgNMkG52neS/ZPl2z4PaOr9Nss+9yPc3ZmaCyoy3m8sK1IYfH0unuLl2wFmem0LuZe4zrBKqMtRwuf
+b2/Kj9vdXxG2b37L5P3v+y/td553fa/3ksU7RVeXbZq+hmEUjIIRCgB9DXrD;
+
+DEFINE LABEL 21
+eJwTZWBgaEz/nNKYfrSQI7VqOneK0pbfmU35JTlbUt/mbUh6Wvg5ZUYZR0lY+fyWsPJb6/irdk5jr7XO
+OlD/Os6seUXM/e4NSdK9n1Om99nnhvaHrIroS93GMApGwSgYMgAAa3En4g;
+
+DEFINE LABEL 22
+eJzjZ2Bg+F+vFu1StyGpryqmKaRi+pqQihU7LlSaH+aqOXjqaC3L2bLmtnNAZQwVTbNV/zQ80vrVuFh7
+R9M9dYZRMApGwZAHABuWG4I;
+
+DEFINE LABEL 23
+eJyTZWBgcKvdYSVUWWltmiMbejC9MJk17WhhS9r0uprM9/2fc5znzSuJWOtXJbvRsV52Y0WT5LroXpb5
+fJM2TOCenNrhPfla7ZV+rTjJPtlQuR5R/+KWgw7/661thCrNLIFGM9zsPSq6o2lJ5NFa2ea0wh+HC3Nj
+7jGMglEwCgYNAAB+iTCD;
+
