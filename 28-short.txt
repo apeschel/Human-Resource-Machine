@@ -1,0 +1,58 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    INBOX   
+    COPYTO   2
+    INBOX   
+    COPYTO   1
+    INBOX   
+    COPYTO   0
+    SUB      1
+    JUMPN    c
+b:
+    COPYFROM 0
+    COPYTO   5
+    COPYFROM 1
+    COPYTO   0
+    COPYFROM 5
+    COPYTO   1
+c:
+    COPYFROM 1
+    SUB      2
+    JUMPN    d
+    COPYFROM 2
+    COPYTO   5
+    COPYFROM 1
+    COPYTO   2
+    COPYFROM 5
+    COPYTO   1
+d:
+    COPYFROM 1
+    SUB      0
+    JUMPN    b
+    COPYFROM 0
+    OUTBOX  
+    COPYFROM 1
+    OUTBOX  
+    COPYFROM 2
+    OUTBOX  
+    JUMP     a
+
+
+DEFINE LABEL 0
+eJzjZmBgYE4/67kt+3n0hMrZjQ311jOAQgwVTZd8/tfHhOTnnSs/mL6iqyd570wGIkBBa8TaFR39y1I7
+Ty560qnVs6r9cVtF071mkByQH6fWyVL4pdl5nkud+WGQ2P7puQmv5+UmSC3NjL2xtGvxlOWfD2jPLzu0
+fu7OI6azWc4SY+coGAWjgHwAAIpbOew;
+
+DEFINE LABEL 1
+eJzjYWBgOFUt6ONWey/0T8OGpK3N1llPOrtKgcIMBnMPOjRNkw191f66h6VOdDVXzZKtDKNgFIyCYQUA
+154T3Q;
+
+DEFINE LABEL 2
+eJzjZ2BgmF0aEeg6dXpA+5R7oZodorUdNbfWTSv/fECmtO2cVNnBUxcq7U9az9x7HKiU4UJlakdCt1ZP
+1+TMboZRMApGwZAHABC+Gvg;
+
+DEFINE LABEL 5
+eJzjZ2BgsGu4JNdRU2h6tuqk24wyyQapstIp4uWXVkyuUNrSUD99zfcm3qVv2nL7gEoZvFIiArlqpgc8
+7BL0YRgFo2AUDHkAAMJfGE0;
+
